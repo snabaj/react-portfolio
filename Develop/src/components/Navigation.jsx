@@ -1,7 +1,6 @@
 import React from 'react';
 
-// Navigation Component
-  const Navigation = ({ currentSection, setCurrentSection }) => (
+  function Navigation({ currentSection, setCurrentSection }) {
     <nav>
       {['About Me', 'Portfolio', 'Contact', 'Resume'].map((section) => (
         <button
@@ -13,16 +12,6 @@ import React from 'react';
         </button>
       ))}
     </nav>
-  );
+  };
   
-  // About Me Section
-  const AboutMe = () => (
-    <section>
-      <h2>About Me</h2>
-      <img src="https://via.placeholder.com/150" alt="Placeholder" />
-      <p>Hi, I'm Snabajja, a passionate developer creating engaging web applications.</p>
-    </section>
-  );
-
   export default Navigation;
-    export { AboutMe };
