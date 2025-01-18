@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Resume() {
-    <section>
+    return <section>
       <h2>Resume</h2>
       <a href="#" download>Download My Resume</a>
       <h3>Proficiencies</h3>

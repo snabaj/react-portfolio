@@ -9,30 +9,28 @@ import Footer from './components/Footer'
 import './styles/App.css'
 
 function App() {
-  const [currentSection, setCurrentSection] = useState('About Me');
+  const [currentSection, setCurrentSection] = useState('About Me')
 
   const renderSection = () => {
     switch (currentSection) {
-      case 'About Me':
-        return <AboutMe />;
       case 'Portfolio':
-        return <Portfolio />;
+        return <Portfolio />
       case 'Contact':
-        return <Contact />;
+        return <Contact />
       case 'Resume':
-        return <Resume />;
+        return <Resume />
       default:
-        return <AboutMe />;
+        return <AboutMe />
     }
-  };
+  }
 
   return (
-    <>
+    <div>
       <Header currentSection={currentSection} setCurrentSection={setCurrentSection} />
       <main>{renderSection()}</main>
       <Footer />
-    </>
-  );
+    </div>
+  )
 }
 
-export default App
+export default App;

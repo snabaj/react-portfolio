@@ -1,7 +1,7 @@
 import React from 'react';
 
   function Navigation({ currentSection, setCurrentSection }) {
-    <nav>
+    return <nav>
       {['About Me', 'Portfolio', 'Contact', 'Resume'].map((section) => (
         <button
           key={section}
