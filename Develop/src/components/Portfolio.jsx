@@ -1,32 +1,44 @@
 import React from 'react';
 import Project from './Project';
-import typescriptApp from '../assets/images/typescript-app.png';
-import weatherDashboard from '../assets/images/weather-dashboard.png';
-import sqlApp from '../assets/images/employee-tracker.png';
-import reactApp from '../assets/images/react-portfolio.png';
+import typescriptApp from '../assets/images/vehicle-builder.png';
+import weatherDashboard from '../assets/images/weather-dash.png';
+import sqlApp from '../assets/images/employee-track.png';
+import reactApp from '../assets/images/react-portfolio2.png';
+import readmeGen from '../assets/images/readme-generator.png';
+import triviaGame from '../assets/images/trivia-game.png';
 
 function Portfolio() {
     const projects = [
       {
-        title: "Typescript",
+        title: "Typescript: Vehicle Builder",
         imageSrc: typescriptApp,
         repoLink: "https://github.com/snabaj/typescript-command-line-app",
       },
       {
-        title: "SQL",
+        title: "SQL: Employee Tracker",
         imageSrc: sqlApp,
         repoLink: "https://github.com/snabaj/SQL-employee-tracker",
       },
       {
-        title: "Servers ans APIs",
+        title: "Servers ans APIs: Weather Dashboard",
         imageSrc: weatherDashboard,
         repoLink: "https://github.com/snabaj/fullstack-weather-dashboard-app",
       },
       {
-        title: "React",
+        title: "React: Portfolio",
         imageSrc: reactApp,
         repoLink: "https://github.com/snabaj/react-portfolio",
       },
+        {
+            title: "Node JS: Readme Generator",
+            imageSrc: readmeGen,
+            repoLink: "https://github.com/snabaj/readme-generator-app",
+        },
+        {
+            title: "Projects: Trivia Game",
+            imageSrc: triviaGame,
+            repoLink: "https://dchica25.github.io/Trivia-game-project/"
+        },
     ];
   
     return (
@@ -38,12 +50,13 @@ function Portfolio() {
               key={index}
               title={project.title}
               imageSrc={project.imageSrc}
-              repoLink={project.repoLink}
+              repoLink={project.repoLink}    
             />
           ))}
         </div>
       </section>
     );
   }
+  
 
 export default Portfolio;

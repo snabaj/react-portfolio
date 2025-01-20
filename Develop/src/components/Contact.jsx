@@ -20,11 +20,16 @@ function Contact() {
       const { name, value } = e.target;
       setFormData((prev) => ({ ...prev, [name]: value }));
     };
+
+    const handleSubmit = (e) => {
+        e.preventDefault(); // Prevents the default form submission behavior
+        setFormData({ name: '', email: '', message: '' });
+      };
   
     return (
       <section>
         <h2>Contact</h2>
-        <form>
+        <form onSubmit={handleSubmit}>
           <label>
             Name:
             <input

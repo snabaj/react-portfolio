@@ -2,7 +2,8 @@ import React from "react";
 import profileImage from "../assets/images/profile-image.png";
 
 function AboutMe() {
-    return <section>
+    return (
+    <section>
       <h2>About Me</h2>
       <img src={profileImage} alt="placeholder" />
         <br /> <br /> <br /> <br />
@@ -17,8 +18,8 @@ function AboutMe() {
       My approach is proactive, emphasizing problem-solving, collaboration, and attention to detail to ensure clean and maintainable code. 
       I am dedicated to refining my skills and embracing new technologies to stay at the forefront of web development. Let’s connect and create something amazing together!
       </p>
-
     </section>
+    );
 };
 
 export default AboutMe;
