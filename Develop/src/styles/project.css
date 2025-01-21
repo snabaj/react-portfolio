@@ -71,3 +71,9 @@
   .project:hover .project-info {
     opacity: 1;
   }
+
+  @media (max-width: 768px) {
+    .portfolio-grid {
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+      }
+  }
