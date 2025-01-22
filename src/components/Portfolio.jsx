@@ -20,7 +20,7 @@ function Portfolio() {
         repoLink: "https://github.com/snabaj/SQL-employee-tracker",
       },
       {
-        title: "Servers ans APIs: Weather Dashboard",
+        title: "Servers and APIs: Weather Dashboard",
         imageSrc: weatherDashboard,
         repoLink: "https://github.com/snabaj/fullstack-weather-dashboard-app",
       },
