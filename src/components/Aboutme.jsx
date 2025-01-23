@@ -6,7 +6,7 @@ function AboutMe() {
     <section>
       <h2>About Me</h2>
       <img src={profileImage} alt="placeholder" />
-        <br /> <br /> <br /> <br />
+        <br /> 
       <p>
       Hello, I'm Stella, a passionate and detail-oriented beginner web developer eager to make a meaningful impact in the tech world. 
       With a strong foundation in both front-end and back-end technologies, I bring a versatile skill set and a commitment to continuous learning to every project.
