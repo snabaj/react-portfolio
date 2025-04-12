@@ -73,6 +73,19 @@
   }
 
 /* Resonsive design */
+
+@media (max-width: 1024px) {
+  .portfolio-grid {
+    grid-template-columns: repeat(2, 1fr); /* Two columns for tablets */
+  }
+  .project-title {
+    font-size: 1rem;
+  }
+  .repo-icon {
+    font-size: 2rem;
+  }
+}
+
 @media (max-width: 768px) {
   .portfolio-grid {
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
@@ -82,5 +95,20 @@
   }
   .repo-icon {
     font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .portfolio-grid {
+    grid-template-columns: 1fr; /* Single column for small devices */
+  }
+  .project-image {
+    max-width: 100%; /* Make sure images take full width */
+  }
+  .project-title {
+    font-size: 0.9rem;
+  }
+  .repo-icon {
+    font-size: 1.8rem;
   }
 }
