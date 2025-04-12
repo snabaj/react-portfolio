@@ -23,7 +23,7 @@ Install dependencies (npm install).
 The user starts the application by using the command “npm run dev” in their terminal. This command starts the server which loads the page in the browser. The About Me section is the landing page and presents a short bio and profile image. The Portfolio section showcases images of my projects, where hovering over them reveals the project title and a GitHub icon that links to the project’s repository. The Contact section contains a form that visitors can use to reach out to me directly. The Resume section lists my proficiencies as a web developer and provides a download link for my full resume. And the Footer contains links to my GitHub, LinkedIn, email, and phone number.
 
 Below is a screenshot of the deployed application.
-![Screenshot of React webpage](src/assets/images/react-portfolio2.png)
+<!-- ![Screenshot of React webpage](src/assets/images/react-portfolio2.png) -->
 
 Below is a link to my deployed application on Netlify.
 https://stellas-portfolio.netlify.app/
