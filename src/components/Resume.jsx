@@ -16,15 +16,17 @@ function Resume() {
       <h3>Back-end proficiencies</h3>
       <ul>
         <li>SQL</li>
+        <li>NoSQL</li>
         <li>Node.js</li>
         <li>Express.js</li>
-        <li>Servers and APIs</li>
+        <li>Servers & APIs</li>
+        <li>JWT Authentication</li>
       </ul>
       <h3>Other</h3>
       <ul>
-        <li>GitHub</li>
-        <li>Prompt engineering</li>
-        <li>Web APIs</li>
+        <li>GitHub Version Control</li>
+        <li>Prompt Engineering</li>
+        <li>Testing and Deployment</li>
       </ul>
     </section>
     );
