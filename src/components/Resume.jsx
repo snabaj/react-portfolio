@@ -1,10 +1,16 @@
-import React from 'react';
+import React from "react";
 
 function Resume() {
-    return (
+  return (
     <section className="resume-section">
       <h2>Resume</h2>
-      <p>Download my <a href="#" download id="download"> Resume</a></p>
+      <p>
+        Download my{" "}
+        <a href="#" download id="download">
+          {" "}
+          Resume
+        </a>
+      </p>
       <h3>Front-end proficiencies</h3>
       <ul>
         <li>JavaScript</li>
@@ -29,7 +35,7 @@ function Resume() {
         <li>Testing and Deployment</li>
       </ul>
     </section>
-    );
-};
+  );
+}
 
 export default Resume;
