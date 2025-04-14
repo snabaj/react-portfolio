@@ -2,9 +2,9 @@ import React from 'react';
 
 function Resume() {
     return (
-    <section>
+    <section className="resume-section">
       <h2>Resume</h2>
-      <p>Download my <a href="#" download> Resume</a></p>
+      <p>Download my <a href="#" download id="download"> Resume</a></p>
       <h3>Front-end proficiencies</h3>
       <ul>
         <li>JavaScript</li>
