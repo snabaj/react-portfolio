@@ -6,7 +6,7 @@ function Project({ title, description, imageSrc, deployedLink, repoLink }) {
   // };
 
   return (
-    <div className="project">
+    <div className="project-card">
       <img src={imageSrc} alt={title} className="project-image" />
       <div className="project-info">
         <h3 className="project-title">{title}</h3>
