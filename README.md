@@ -1,40 +1,120 @@
 # React Portfolio
 
-## Description
+[![React](https://img.shields.io/badge/React-18.2.0-blue?style=flat&logo=react)](https://reactjs.org/) [![Vite](https://img.shields.io/badge/Vite-4.0.0-FFD700?style=flat&logo=vite)](https://vitejs.dev/) [![NPM](https://img.shields.io/badge/npm-v8.19.3-CB3837?style=flat&logo=npm)](https://www.npmjs.com/)
 
-The React Portfolio is a single-page application created using React and Vite. It showcases various sections that highlight my experience, projects I have worked on, proficiencies as a developer, and contact information in an elegant and easy-to-navigate design. Below is a description of each section of the portfolio.
+A single-page application portfolio built with **React** and **Vite** that showcases my experience, projects, proficiencies, and contact information in a sleek and responsive design.
 
 ## Table of Contents
 
-- Installation
-- Usage
-- License
-- Contributing
-- Tests
-- Questions
+- [React Portfolio](#react-portfolio)
+  - [Table of Contents](#table-of-contents)
+  - [📖Description](#description)
+  - [✨Features](#features)
+  - [⚙️Installation](#️installation)
+    - [Prerequisites](#prerequisites)
+    - [Steps](#steps)
+  - [Usage](#usage)
+    - [Screenshot of the deployed application.](#screenshot-of-the-deployed-application)
+    - [🚀 **Checkout the live Portfolio App on Netlify**](#-checkout-the-live-portfolio-app-on-netlify)
+  - [💻Technologies Used](#technologies-used)
+  - [📄License](#license)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [Questions](#questions)
 
-## Installation
+## 📖Description
 
-Install Vite (npm create vite).
-Install dependencies (npm install).
+This project is a modern React Portfolio that displays multiple sections including:
+- **Home:** A gallery of projects where each project has a link to the deployed website and the project's repository on GitHub.
+- **About Me:**  A page featuring a short bio and a profile image.
+- **Contact:** A contact form for visitors to reach out directly.
+- **Resume:** A dedicated section listing my skills as a web developer along with a link to download my full resume.
+
+The application was bootstrapped with Vite for fast performance and a smooth developer experience.
+
+## ✨Features 
+
+- **Responsive Design:** Adapts to various screen sizes (desktop, tablet, mobile).
+- **Interactive Portfolio:** Hover effects on project cards reveal additional project details.
+- **Dynamic Contact Form:** Easily get in touch through the contact section.
+- **Downloadable Resume:** Quick access to my resume for interested employers and collaborators.
+- **Modern UI:** Clean layout with smooth transitions and animations.
+
+## ⚙️Installation
+
+### Prerequisites
+- [Node.js](https://nodejs.org/) (v14 or later)
+- [npm](https://www.npmjs.com/)
+
+### Steps
+1. **Clone the Repository:**
+   ```
+   git clone https://github.com/snabaj/react-portfolio.git
+   ```
+2. Navigate into the Project Directory:
+    ```
+    cd react-portfolio
+    ```
+3. Create a New Vite Project (if starting from scratch):
+    ```
+    npm create vite
+    ```
+Follow the prompts to select a React template.
+
+4. Install Dependencies:
+    ```
+    npm install
+    ```
 
 ## Usage
 
-The user starts the application by using the command “npm run dev” in their terminal. This command starts the server which loads the page in the browser. The About Me section is the landing page and presents a short bio and profile image. The Portfolio section showcases images of my projects, where hovering over them reveals the project title and a GitHub icon that links to the project’s repository. The Contact section contains a form that visitors can use to reach out to me directly. The Resume section lists my proficiencies as a web developer and provides a download link for my full resume. And the Footer contains links to my GitHub, LinkedIn, email, and phone number.
+To run the application locally:
 
-Below is a screenshot of the deployed application.
-<!-- ![Screenshot of React webpage](src/assets/images/react-portfolio2.png) -->
+1. Start the Development Server:
+    ```
+    npm run start
+    ```
+2. Open Your Browser: Navigate to http://localhost:3000 (or the port provided in your terminal) to see the portfolio in action.
 
-Below is a link to my deployed application on Netlify.
-https://stellas-portfolio.netlify.app/
+### Screenshot of the deployed application.
 
-## License
+![Screenshot of React webpage](src/assets/images/Port-homepage.jpg)
+
+### 🚀 **[Checkout the live Portfolio App on Netlify](https://stellas-portfolio.netlify.app/)**
+
+## 💻Technologies Used 
+
+[![React](https://img.shields.io/badge/React-18.2.0-blue?style=flat&logo=react)](https://reactjs.org/)
+[![Vite](https://img.shields.io/badge/Vite-4.0.0-FFD700?style=flat&logo=vite)](https://vitejs.dev/)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+
+
+## 📄License
 
 This project is licensed under the [MIT](https://opensource.org/licenses/MIT) license.
 
 ## Contributing
 
-If you wish to contribute to this project, feel free to fork the repository, create a branch, and submit a pull request with your changes. Ensure your code is well-documented, and your changes are tested before submitting.
+Contributions are welcome! To contribute:
+
+1. Fork the repository.
+
+2. Create a new branch:
+   ```
+   git checkout -b feature/your-feature
+   ```
+3. Make your changes and commit:
+   ```
+   git commit -m "Add feature: description"
+   ```
+4. Push your branch:
+   ```
+   git push origin feature/your-feature
+   ```
+5. Open a pull request.
+
+Ensure that your code is well-documented and tested before submitting a pull request.
 
 ## Tests
 
