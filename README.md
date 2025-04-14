@@ -6,6 +6,9 @@ A single-page application portfolio built with **React** and **Vite** that showc
 
 ## Table of Contents
 
+<details>
+  <summary>Click to expand</summary>
+  
 - [React Portfolio](#react-portfolio)
   - [Table of Contents](#table-of-contents)
   - [📖Description](#description)
@@ -21,18 +24,20 @@ A single-page application portfolio built with **React** and **Vite** that showc
   - [Contributing](#contributing)
   - [Tests](#tests)
   - [Questions](#questions)
+</details>
 
 ## 📖Description
 
 This project is a modern React Portfolio that displays multiple sections including:
+
 - **Home:** A gallery of projects where each project has a link to the deployed website and the project's repository on GitHub.
-- **About Me:**  A page featuring a short bio and a profile image.
+- **About Me:** A page featuring a short bio and a profile image.
 - **Contact:** A contact form for visitors to reach out directly.
 - **Resume:** A dedicated section listing my skills as a web developer along with a link to download my full resume.
 
 The application was bootstrapped with Vite for fast performance and a smooth developer experience.
 
-## ✨Features 
+## ✨Features
 
 - **Responsive Design:** Adapts to various screen sizes (desktop, tablet, mobile).
 - **Interactive Portfolio:** Hover effects on project cards reveal additional project details.
@@ -43,37 +48,38 @@ The application was bootstrapped with Vite for fast performance and a smooth dev
 ## ⚙️Installation
 
 ### Prerequisites
+
 - [Node.js](https://nodejs.org/) (v14 or later)
 - [npm](https://www.npmjs.com/)
 
 ### Steps
+
 1. **Clone the Repository:**
    ```
    git clone https://github.com/snabaj/react-portfolio.git
    ```
 2. Navigate into the Project Directory:
-    ```
-    cd react-portfolio
-    ```
+   ```
+   cd react-portfolio
+   ```
 3. Create a New Vite Project (if starting from scratch):
-    ```
-    npm create vite
-    ```
-Follow the prompts to select a React template.
+   `    npm create vite
+   `
+   Follow the prompts to select a React template.
 
 4. Install Dependencies:
-    ```
-    npm install
-    ```
+   ```
+   npm install
+   ```
 
 ## Usage
 
 To run the application locally:
 
 1. Start the Development Server:
-    ```
-    npm run start
-    ```
+   ```
+   npm run start
+   ```
 2. Open Your Browser: Navigate to http://localhost:3000 (or the port provided in your terminal) to see the portfolio in action.
 
 ### Screenshot of the deployed application.
@@ -82,13 +88,12 @@ To run the application locally:
 
 ### 🚀 **[Checkout the live Portfolio App on Netlify](https://stellas-portfolio.netlify.app/)**
 
-## 💻Technologies Used 
+## 💻Technologies Used
 
 [![React](https://img.shields.io/badge/React-18.2.0-blue?style=flat&logo=react)](https://reactjs.org/)
 [![Vite](https://img.shields.io/badge/Vite-4.0.0-FFD700?style=flat&logo=vite)](https://vitejs.dev/)
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-
 
 ## 📄License
 
