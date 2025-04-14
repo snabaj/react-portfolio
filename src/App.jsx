@@ -26,9 +26,9 @@ function App() {
   }
 
   return (
-    <div>
+    <div className="page-container">
       <Header currentSection={currentSection} setCurrentSection={setCurrentSection} />
-      <main>{renderSection()}</main>
+      <main className="content-wrap">{renderSection()}</main>
       <Footer />
     </div>
   )
