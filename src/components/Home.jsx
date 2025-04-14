@@ -18,7 +18,7 @@ import candidateSearch from '../assets/images/candidate-search.png';
 function Portfolio() {
     const projects = [
       {
-        title: "Weaver app",
+        title: "Weaver App",
         description: "A social media platform made for creatives and story tellers.",
         imageSrc: weaverApp,
         deployedLink: "https://weaver-9su3.onrender.com/",
@@ -74,14 +74,14 @@ function Portfolio() {
         repoLink: "https://github.com/snabaj/social-network-API",
       },
       {
-        title: "Typescript: Vehicle Builder",
+        title: "Typescript Vehicle Builder",
         description: "A vehicle builder app generated using Typescript.",
         imageSrc: typescriptApp,
         deployedLink: "https://drive.google.com/file/d/1EJHnGsXYUiMuCwzzIyhQYRwTlAu-u2sd/view",
         repoLink: "https://github.com/snabaj/typescript-command-line-app",
       },
       {
-        title: "SQL: Employee Tracker",
+        title: "SQL Employee Tracker",
         description: "A command-line app that manages a company's employee database using Node.JS, Inquirer, and PostgreSQL.",
         imageSrc: sqlApp,
         deployedLink: "https://drive.google.com/file/d/1eqGCgxw-uTBpamuNhoREr1FEvkaE3mFY/view",
@@ -95,14 +95,14 @@ function Portfolio() {
       //   repoLink: "https://github.com/snabaj/fullstack-weather-dashboard-app",
       // },
       {
-        title: "React: Portfolio (this site)",
+        title: "React Portfolio (this site)",
         description: "A portfolio website built using React.",
         imageSrc: reactApp,
         deployedLink: "https://stellas-portfolio.netlify.app/",
         repoLink: "https://github.com/snabaj/react-portfolio",
       },
       {
-        title: "Node JS: Readme Generator",
+        title: "Node JS Readme Generator",
         description: "A command-line application that generates a README file for your project using Node.js and Inquirer.",
         imageSrc: readmeGen,
         deployedLink: "https://drive.google.com/file/d/1EcPv8fS-OgUFH13RiSYX4JG0gmbMrDTG/view",
