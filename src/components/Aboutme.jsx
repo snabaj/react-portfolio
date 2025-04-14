@@ -22,6 +22,10 @@ Beyond solo projects, I thrive in collaboration — I love working with other de
 
 Let’s connect, build something great, and maybe share a laugh or two along the way. 🚀
       </p>
+      <br/><br/>
+      <center>
+      ✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯
+      </center>
     </section>
     );
 };
