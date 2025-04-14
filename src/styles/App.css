@@ -3,14 +3,20 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  /* background-color: #f4f4f4; */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../assets/images/pexels-port3.jpg');;
-  color: #333;
+  background-color: #e7e5e5;
+  /* background-image: url('../assets/images/pexels-port5.jpg'); */
+  background-repeat: no-repeat;
+  /* background: linear-gradient(to bottom, #09203F, #537895); */
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../assets/images/header-back.jpg'); */
+  background-size: cover;
+  /* background-position: center; */
+  background-attachment: fixed;
+  /* color: #333; */
   line-height: 1.6;
   width: 100%;
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  min-height: 100vh;
   /* overflow-y: scroll; */
   overflow-x: hidden;
   padding-top: 10rem;
@@ -18,7 +24,8 @@ body {
 
 /* Header Styling */
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../assets/images/pexels-port3.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../assets/images/pexels-port4.jpg');
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)); */
   background-size: cover;
   background-position: center;
   color: white;
@@ -37,7 +44,28 @@ header h1 {
   flex: 1;
   text-align: left;
   font-size: 3.5rem;
-  font-family: cursive;
+  /* font-family: inconsolata; */
+  font-family: Sail;
+}
+
+.resume-section h3 {
+  text-decoration: underline;
+}
+
+#download {
+  background-color: #333;
+  color: white;
+  border: none;
+  text-decoration: none;
+  padding: 0.65rem 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+#download:hover {
+  background-color: #ffd700;
+  color: #333;
 }
 
 nav {
@@ -70,9 +98,12 @@ nav button:hover {
 
 /* Main Section Styling */
 main {
+  display: flex;
+  flex-direction: column;
   padding: 2rem;
   /*padding-top: 200px;*/
   max-width: 900px;
+  min-height: 100vh; 
   margin: 0 auto;
   background: white;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -134,20 +165,33 @@ form button:hover {
   color: #333;
 }
 
+/* .page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+} */
+
+.content-wrap {
+  flex: 1; /* Take up all space until footer */
+  padding: 2rem;
+}
+
 /* Footer Styling */
 footer {
-  background-color: #333;
-  color: white;
+  background-color: #363637;
+  opacity: 0.9;
+  /* color: white; */
   text-align: center;
-  padding: 0.5rem;
+  padding: 0.2rem;
+  padding-bottom: 1rem;
   /*margin-top: 2rem;*/
-  position: fixed;
+  /* position: fixed; */
   bottom: 0;
   width: 100%;
 }
 
 footer a {
-  color: white;
+  /* color: white; */
   text-decoration: none;
   margin: 0 0.5rem;
   font-size: 2rem;
@@ -161,11 +205,15 @@ footer a {
 #github {
   width: 30px;
   height: 30px;
+  transition: color 0.3s ease, transform 0.3s ease;
+    animation: pulse 1.5s infinite ease-in-out;
 }
 
 #linkedin {
   width: 80px;
   height: 25px;
+  transition: color 0.3s ease, transform 0.3s ease;
+  animation: pulse 1.5s infinite ease-in-out;
 }
 
 ::-webkit-scrollbar {
