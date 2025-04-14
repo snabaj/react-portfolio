@@ -67,43 +67,99 @@
     color: white;
   }
 
-/* Resonsive design */
+/* =======================================================================================================
+Responsive design 
+==========================================================================================================*/
 
+
+/* 1024px and Below */
 @media (max-width: 1024px) {
   .portfolio-grid {
-    grid-template-columns: repeat(2, 1fr); /* Two columns for tablets */
+    grid-template-columns: repeat(2, 1fr); /* Maintains two columns for tablets */
   }
   .project-title {
     font-size: 1rem;
   }
-  .repo-icon {
-    font-size: 2rem;
+  .project-info p {
+    font-size: 0.6rem;
   }
 }
 
+/* 768px and Below */
 @media (max-width: 768px) {
+  /* Global Header and Layout Adjustments */
+  header {
+    flex-direction: column;
+    text-align: center;
+    padding: 1.5rem;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  nav {
+    text-align: center;
+  }
+  
+  nav button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+  }
+  
+  main {
+    padding: 1rem;
+  }
+  
+  section img {
+    max-width: 100px;
+    float: none;
+    display: block;
+    margin: 1rem auto;
+  }
+  
+  /* Portfolio Adjustments */
   .portfolio-grid {
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   }
   .project-title {
     font-size: 1rem;
   }
-  .repo-icon {
-    font-size: 1rem;
+  .btn {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.85rem;
   }
 }
 
+/* 480px and Below */
 @media (max-width: 480px) {
   .portfolio-grid {
     grid-template-columns: 1fr; /* Single column for small devices */
   }
   .project-image {
-    max-width: 100%; /* Makes sure images take full width */
+    max-width: 100%; /* Ensure images take full width */
   }
   .project-title {
     font-size: 0.9rem;
   }
-  .repo-icon {
-    font-size: 1.8rem;
+  .project-info p {
+    font-size: 0.8rem;
+  }
+  nav button {
+  position: relative;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+  }
+  .btn {
+    padding: 0.3rem 0.6rem;
+    font-size: 0.8rem;
+  }
+  footer p {
+    font-size: 0.7rem;
+    text-align: center;
+  }
+  footer nav {
+    position: relative
   }
 }
