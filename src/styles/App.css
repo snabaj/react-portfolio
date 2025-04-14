@@ -24,6 +24,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   position: fixed;
   top: 0;
   width: 100%;
@@ -220,36 +221,3 @@ footer p {
   background: #888; 
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-  header {
-    flex-direction: column;
-    text-align: center;
-    padding: 1.5rem;
-  }
-
-  header h1 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-  }
-
-  nav {
-    text-align: center;
-  }
-
-  nav button {
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
-  }
-
-  main {
-    padding: 1rem;
-  }
-
-  section img {
-    max-width: 100px;
-    float: none;
-    display: block;
-    margin: 1rem auto;
-  }
-}
