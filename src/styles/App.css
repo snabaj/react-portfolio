@@ -60,7 +60,7 @@ header h1 {
 }
 
 nav {
-  flex: 1;
+  flex: 1; 
   text-align: right;
   margin: 0 2rem;
 }
