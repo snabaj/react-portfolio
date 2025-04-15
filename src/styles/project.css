@@ -139,7 +139,7 @@ Responsive design
   }
 
   .project-image {
-    max-width: 100%; /* Ensure images take full width */
+    max-width: 100%; /* images take full width */
   }
 
   .project-title {
@@ -150,9 +150,18 @@ Responsive design
     font-size: 0.8rem;
   }
 
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap; 
+  }
+
   nav button {
-    margin: 0.3rem 0;
+    margin: 0 0.2rem;
     color: #ffd700;
+    padding: 0.7rem;
+    font-size: 0.9rem;
   }
 
   .btn {
