@@ -170,6 +170,8 @@ Responsive design
     padding: 0.7rem;
     font-size: 0.8rem;
     font-weight: bold;
+    border: 1px solid white;
+    border-radius: 10px;
   }
 
   .btn {
