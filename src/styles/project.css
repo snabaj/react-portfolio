@@ -137,28 +137,34 @@ Responsive design
   .portfolio-grid {
     grid-template-columns: 1fr; /* Single column for small devices */
   }
+
   .project-image {
     max-width: 100%; /* Ensure images take full width */
   }
+
   .project-title {
     font-size: 0.9rem;
   }
+
   .project-info p {
     font-size: 0.8rem;
   }
+
   nav button {
-  position: relative;
-    padding: 0.5rem 1rem;
-    font-size: 0.9rem;
+    margin: 0.3rem 0;
+    color: #ffd700;
   }
+
   .btn {
     padding: 0.3rem 0.6rem;
     font-size: 0.8rem;
   }
+
   footer p {
     font-size: 0.7rem;
     text-align: center;
   }
+  
   footer nav {
     position: relative
   }
