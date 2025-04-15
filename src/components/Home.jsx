@@ -45,7 +45,7 @@ function Portfolio() {
     {
       title: "Book Search Engine",
       description:
-        "I refactor a fully functioning Google Books API search engine built with a RESTful API to a GraphQL API built with Apollo Server.",
+        "I refactor a fully functioning Google Books API search engine built with a RESTful API to use GraphQL API built with Apollo Server.",
       imageSrc: bookSearch,
       deployedLink: "https://book-search-engine-ulcz.onrender.com/",
       repoLink: "https://github.com/snabaj/book-search-engine",

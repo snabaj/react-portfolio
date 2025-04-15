@@ -30,7 +30,7 @@ function Resume() {
       </ul>
       <h3>Other</h3>
       <ul>
-        <li>GitHub Version Control</li>
+        <li>GitHub for Version Control</li>
         <li>Prompt Engineering</li>
         <li>Testing and Deployment</li>
       </ul>
