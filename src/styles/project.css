@@ -161,7 +161,8 @@ Responsive design
     margin: 0 0.2rem;
     color: #ffd700;
     padding: 0.7rem;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+    font-weight: bold;
   }
 
   .btn {
